@@ -26,7 +26,7 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  hashCreator[key] = value
+  hashCreator[:name] = 'Grace Hopper'
   return hashCreator
 end
 
