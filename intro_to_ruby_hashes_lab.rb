@@ -26,8 +26,10 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  hashCreator[:name] = 'Grace Hopper'
-  return hashCreator
+  anotherHash = {
+    key: value
+  }
+  return anotherHash
 end
 
 def read_from_hash(hash, key)
