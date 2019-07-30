@@ -40,5 +40,6 @@ def update_counting_hash(hash, key)
   #  end
   # hash[key] = 1
   
-  hash[key] ? hash[key] = 1 : hash[key] += 1
+  hash[key] ? hash[key] = 1 : hash[key] += 1\
+  return hash
 end
