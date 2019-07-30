@@ -13,7 +13,7 @@ end
 
 def pioneer
   pioneerHash = {
-    name: "Grace Hopper"
+    name: 'Grace Hopper'
   }
   return pioneerHash
 end
