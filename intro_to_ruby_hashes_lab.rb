@@ -15,18 +15,25 @@ def pioneer
   pioneerHash = {
     name: "Grace Hopper"
   }
+  return pioneerHash
 end
 
 def id_generator
-  # return a hash with a key :id assigned to positive integer
+  idHash = {
+    id: 7
+  }
+  return idHash
 end
 
 def my_hash_creator(key, value)
-  # return a hash that includes the key and value parameters passed into this method
+  hashCreator = {
+    key: value
+  }
+  return hashCreator
 end
 
 def read_from_hash(hash, key)
-  # return the correct value using the hash and key parameters
+  readHash
 end
 
 def update_counting_hash(hash, key)
