@@ -34,9 +34,9 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  if hash.fetch(key) do
-    hash[key] += 1
-    return hash
-    end
-  hash[key] = 1
+  #if hash.fetch(key) do
+  #  hash[key] += 1
+  #  return hash
+  #  end
+  # hash[key] = 1
 end
