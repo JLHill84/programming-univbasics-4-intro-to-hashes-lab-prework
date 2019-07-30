@@ -33,7 +33,7 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  readHash
+  hash.fetch(key, "Not Found!")
 end
 
 def update_counting_hash(hash, key)
